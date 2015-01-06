@@ -1,0 +1,13 @@
+body {
+  padding-top: 70px;
+}
+
+#cube {
+  overflow: hidden;
+  transform-style: 'preserve-3d'
+  -webkit-transform-style: 'preserve-3d';
+  /* width: 1280px; */
+  /* height: 402px; */
+  perspective: 637.490555275006px;
+  -webkit-perspective: 637.490555275006px;
+}
