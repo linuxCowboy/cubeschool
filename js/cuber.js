@@ -7983,13 +7983,13 @@ ERNO.Twist.prototype.set = function( command, degrees ){
 
 		if( command === command.toUpperCase() ){
 
-			vector =  1;
-			wise   = 'clockwise';
+			vector = -1;
+			wise   = 'anticlockwise';
 		}
 		else if( command === command.toLowerCase() ){
 
-			vector = -1;
-			wise   = 'anticlockwise';
+			vector =  1;
+			wise   = 'clockwise';
 		}
 
 
